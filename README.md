@@ -1,31 +1,23 @@
 # About
-This application was created to summarize how Raymarching handles color and noise.<br>
-This application challenges.
+This application reproduces the effects of [HajimeWatanabe's portfolio site](https://hajimewatanabe.jp/).<br>
+The creator of the portfolio site is [Calamarify](https://twitter.com/takaaki_sugar).
 
-- Raymarching
-- Using matcap texture in shader
-- Changing matcap hue
+https://nemutas.github.io/r3f-waver/
 
-https://nemutas.github.io/r3f-gloss/
 
-<img src="https://user-images.githubusercontent.com/46724121/159117000-f174e7e6-2e5d-4655-bab7-99c185233b44.png" width="800" />
+![output(video-cutter-js com) (2)](https://user-images.githubusercontent.com/46724121/159173170-688e9350-4d49-41c2-a99c-d2bae4b8ff7d.gif)
 
 # Technology
 
 - TypeScript
 - React（Create React App）
 - React Three Fiber（Three.js）
-- Raymarching
-- Post-processing
-- [Matcaps](https://github.com/nidorx/matcaps)
+- GLSL
 
 # Reference
-This is a technical document on Raymarching. They are all very easy to understand and are excellent documents.
 
-* [wgld.org](https://wgld.org/d/glsl/g008.html) - Japanese
-* [Inigo Quilez - articles](https://www.iquilezles.org/www/index.htm)
-* [Raymarching simple scene #48](https://www.youtube.com/watch?v=q2WcGi3Cr9w&t=6s)
-* [Live Coding and Alien Orb - Modeling & Shadows](https://www.youtube.com/watch?v=b0AayhCO7s8&t=416s)
+* https://codepen.io/kenjiSpecial/pen/poYpMg
+* https://glslsandbox.com/e#20444.0
 
 # License
 
