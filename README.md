@@ -4,7 +4,6 @@ The creator of the portfolio site is [Calamarify](https://twitter.com/takaaki_su
 
 https://nemutas.github.io/r3f-waver/
 
-
 ![output(video-cutter-js com) (2)](https://user-images.githubusercontent.com/46724121/159173170-688e9350-4d49-41c2-a99c-d2bae4b8ff7d.gif)
 
 # Technology
@@ -18,6 +17,8 @@ https://nemutas.github.io/r3f-waver/
 
 * https://codepen.io/kenjiSpecial/pen/poYpMg
 * https://glslsandbox.com/e#20444.0
+* [glsl-blend](https://github.com/jamieowen/glsl-blend)
+* [GLSL Noise Algorithms](https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83)
 
 # License
 
