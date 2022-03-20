@@ -1,3 +1,5 @@
+import { proxy } from 'valtio';
+
 export const ImageFileNames = ['image01', 'image02', 'image03', 'image04'] as const
 
 export const transitionState = {
@@ -14,3 +16,5 @@ export const transitionState = {
 		return transitionState.textureIndex < ImageFileNames.length - 1 ? transitionState.textureIndex + 1 : 0
 	}
 }
+
+export const appState = proxy<{ finishLoading: boolean }>({ finishLoading: false })

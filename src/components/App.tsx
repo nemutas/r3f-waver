@@ -2,6 +2,7 @@ import React, { useRef, VFC } from 'react';
 import { css } from '@emotion/css';
 import { transitionState } from '../modules/store';
 import { LinkIconButton } from './LinkIconButton';
+import { Loading } from './Loading';
 import { ScrollAnnotation } from './ScrollAnnotation';
 import { TCanvas } from './three/TCanvas';
 
@@ -35,6 +36,7 @@ export const App: VFC = () => {
 			<TCanvas />
 			<LinkIconButton imagePath="/assets/icons/github.svg" linkPath="https://github.com/nemutas/r3f-waver" />
 			<ScrollAnnotation />
+			<Loading />
 		</div>
 	)
 }

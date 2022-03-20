@@ -5,6 +5,7 @@ import { Canvas } from '@react-three/fiber';
 import { ImageFileNames } from '../../modules/store';
 import { BackPlane } from './BackPlane';
 import { FrontPlane } from './FrontPlane';
+import { Loading } from './Loading';
 
 export const TCanvas: VFC = () => {
 	const OrthographicCamera = new THREE.OrthographicCamera(-1, 1, 1, -1, -10, 10)
@@ -12,7 +13,7 @@ export const TCanvas: VFC = () => {
 	return (
 		<Canvas camera={OrthographicCamera} dpr={window.devicePixelRatio}>
 			{/* objects */}
-			<Suspense fallback={null}>
+			<Suspense fallback={<Loading />}>
 				<Planes />
 			</Suspense>
 			{/* helper */}
