@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/r3f-waver/static/css/main.a840767e.css",
-    "main.js": "/r3f-waver/static/js/main.0b522ff9.js",
+    "main.js": "/r3f-waver/static/js/main.60bd9869.js",
     "static/js/27.48ca030a.chunk.js": "/r3f-waver/static/js/27.48ca030a.chunk.js",
     "index.html": "/r3f-waver/index.html"
   },
   "entrypoints": [
     "static/css/main.a840767e.css",
-    "static/js/main.0b522ff9.js"
+    "static/js/main.60bd9869.js"
   ]
 }
