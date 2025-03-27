@@ -15,10 +15,8 @@ https://nemutas.github.io/r3f-waver/
 
 # Reference
 
-* https://codepen.io/kenjiSpecial/pen/poYpMg
-* https://glslsandbox.com/e#20444.0
-* [glsl-blend](https://github.com/jamieowen/glsl-blend)
-* [GLSL Noise Algorithms](https://gist.github.com/patriciogonzalezvivo/670c22f3966e662d2f83)
+* [caustics and water](https://www.shadertoy.com/view/4sXfDj)  
+* [Day47: Clock with shader.](https://codepen.io/kenjiSpecial/pen/poYpMg)
 
 # License
 
